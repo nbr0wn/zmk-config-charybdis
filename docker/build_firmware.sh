@@ -14,6 +14,10 @@ mkdir $BUILD
 
 # Export paths for building
 cd $CONF
+
+# Fetch all the modules the build requires
+west update --fetch-opt=--filter=tree:0
+
 west zephyr-export
 
 # Do the build

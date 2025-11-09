@@ -7,8 +7,6 @@
 BUILD=/tmp/zmk-build
 
 CONF=/workspaces/zmk-config
-CONF=/workspaces/zmk-config/docker/zmk-charybdis
-CONF=/workspaces/zmk-config/docker/zmk-config-charybdis
 
 # Cleanup
 rm -rf /tmp/zmk-config
